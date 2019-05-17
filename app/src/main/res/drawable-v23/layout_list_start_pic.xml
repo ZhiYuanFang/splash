@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 设置整个屏幕背景为白色 -->
+    <item>
+        <color android:color="@android:color/white"/>
+    </item>
+
+    <item
+        android:drawable="@drawable/top_bg"
+        android:height="485dp"
+        android:width="375dp"
+        android:bottom="183dp"/>
+
+    <item android:drawable="@drawable/center"
+        android:width="273dp"
+        android:height="277dp"
+        android:top="96dp"
+        android:gravity="center_horizontal"/>
+
+    <item android:top="409dp"
+        android:gravity="center_horizontal"
+        android:height="24dp"
+        android:width="294dp"
+        android:drawable="@drawable/start_text"/>
+
+    <item android:gravity="center_horizontal"
+        android:top="496dp"
+        android:width="77dp"
+        android:height="77dp"
+        android:drawable="@drawable/logo"/>
+
+    <item android:top="584dp"
+        android:gravity="center_horizontal"
+        android:height="39dp"
+        android:width="149dp"
+        android:drawable="@drawable/infinitesimal_calculus"/>
+
+</layer-list>
